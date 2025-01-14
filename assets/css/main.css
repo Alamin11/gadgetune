@@ -1,14 +1,6 @@
-/**
-* Template Name: eNno
-* Template URL: https://bootstrapmade.com/enno-free-simple-bootstrap-template/
-* Updated: Aug 07 2024 with Bootstrap v5.3.3
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
 /*--------------------------------------------------------------
 # Font & Color Variables
-# Help: https://bootstrapmade.com/color-system/
+
 --------------------------------------------------------------*/
 /* Fonts */
 :root {
@@ -154,10 +146,7 @@ h6 {
 .pulsating-play-btn {
   width: 94px;
   height: 94px;
-  background: radial-gradient(
-    var(--accent-color) 50%,
-    color-mix(in srgb, var(--accent-color), transparent 75%) 52%
-  );
+  background: linear-gradient(to right, #3b97b0, #486f83, #564757, #64202b);
   border-radius: 50%;
   display: block;
   position: relative;
@@ -261,7 +250,7 @@ h6 {
 .header .btn-getstarted,
 .header .btn-getstarted:focus {
   color: var(--contrast-color);
-  background: var(--accent-color);
+  background: linear-gradient(to right, #3b97b0, #486f83, #564757, #64202b);
   font-size: 14px;
   padding: 8px 25px;
   margin: 0 0 0 30px;
@@ -272,7 +261,7 @@ h6 {
 .header .btn-getstarted:hover,
 .header .btn-getstarted:focus:hover {
   color: var(--contrast-color);
-  background: color-mix(in srgb, var(--accent-color), transparent 15%);
+  background: linear-gradient(to right, #64202b, #564757, #486f83, #3b97b0);
 }
 
 @media (max-width: 1200px) {
@@ -901,7 +890,7 @@ section,
 
 .hero .btn-get-started {
   color: var(--contrast-color);
-  background: var(--accent-color);
+  background: linear-gradient(to right, #3b97b0, #486f83, #564757, #64202b);
   font-family: var(--heading-font);
   font-weight: 400;
   font-size: 15px;
@@ -915,7 +904,7 @@ section,
 
 .hero .btn-get-started:hover {
   color: var(--contrast-color);
-  background: color-mix(in srgb, var(--accent-color), transparent 15%);
+  background: linear-gradient(to right, #64202b, #564757, #486f83, #3b97b0);
   box-shadow: 0 8px 28px rgba(0, 0, 0, 0.1);
 }
 
@@ -1354,7 +1343,7 @@ section,
 
 .call-to-action:before {
   content: "";
-  background: color-mix(in srgb, var(--background-color), transparent 50%);
+  background: linear-gradient(to right, #64202b, #564757, #486f83, #3b97b0);
   position: absolute;
   inset: 0;
   z-index: 2;
